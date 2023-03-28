@@ -6,10 +6,13 @@
 
 Os números representam valores numéricos, positivos ou negativos, inteiros ou decimais. Por exemplo:
 
+<br/>
+
 ```
 let x = 10;
 let y = -5.5;
 ```
+
 <br/>
 
 > **Strings**:
@@ -17,6 +20,8 @@ let y = -5.5;
 <br/>
 
 Strings são cadeias de caracteres. Eles podem conter letras, números, símbolos e espaços em branco. Eles são definidos entre aspas simples ou duplas. Por exemplo:
+
+<br/>
 
 ```
 let nome = "Maria";
@@ -31,6 +36,8 @@ let sobrenome = 'Silva';
 
 Os booleanos são valores verdadeiro ou falso. Eles são úteis para fazer comparações e condições. Por exemplo:
 
+<br/>
+
 ```
 let temLicenca = true;
 let estaAutenticado = false;
@@ -44,6 +51,8 @@ let estaAutenticado = false;
 
 Null é um valor especial que representa a ausência de valor. Por exemplo:
 
+<br/>
+
 ```
 let valor = null;
 ```
@@ -55,6 +64,8 @@ let valor = null;
 <br/>
 
 Undefined é um valor especial que é atribuído automaticamente às variáveis que não têm valor atribuído. Por exemplo:
+
+<br/>
 
 ```
 let x;
@@ -68,6 +79,8 @@ console.log(x); // imprime undefined
 <br/>
 
 Os objetos são estruturas de dados complexas que podem conter múltiplos valores de diferentes tipos. Eles são definidos entre chaves e podem ter propriedades e métodos. Por exemplo:
+
+<br/>
 
 ```
 let pessoa = {
@@ -88,6 +101,8 @@ let pessoa = {
 <br/>
 
 Os arrays são coleções de valores que podem ser acessados por um índice. Eles são definidos entre colchetes e podem conter valores de qualquer tipo. Por exemplo:
+
+<br/>
 
 ```
 let numeros = [1, 2, 3, 4, 5];
