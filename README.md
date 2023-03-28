@@ -2,6 +2,7 @@
 
 > **Números**:
 
+
 Os números representam valores numéricos, positivos ou negativos, inteiros ou decimais. Por exemplo:
 
 ```
