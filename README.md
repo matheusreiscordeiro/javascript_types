@@ -110,3 +110,47 @@ let frutas = ["maçã", "banana", "laranja"];
 ```
 
 <br/>
+
+> **Symbol**:
+
+O tipo de dados Symbol no JavaScript é uma das novidades introduzidas no ECMAScript 2015 (também conhecido como ES6). Um símbolo é um valor primitivo exclusivo e imutável que pode ser usado como identificador para propriedades de objetos.
+
+Cada valor de símbolo é único e pode ser usado como chave para acessar uma propriedade em um objeto. Isso é útil para criar propriedades privadas em objetos ou para evitar conflitos de nome de propriedades.
+
+Aqui está um exemplo de como criar e usar um símbolo:
+
+<br/>
+
+```
+// Criando um símbolo com descrição opcional
+const mySymbol = Symbol('My Symbol');
+
+// Usando um símbolo como chave de propriedade em um objeto
+const myObject = {
+  [mySymbol]: 'Valor do símbolo'
+};
+
+// Acessando a propriedade usando o símbolo como chave
+console.log(myObject[mySymbol]); // Output: 'Valor do símbolo'
+```
+
+<br/>
+
+Neste exemplo, um símbolo é criado usando a função Symbol() e armazenado na variável mySymbol. Em seguida, um objeto é criado com uma propriedade que usa o símbolo mySymbol como chave.
+
+Ao acessar a propriedade do objeto usando o símbolo como chave, o valor 'Valor do símbolo' é retornado.
+
+É importante notar que cada valor de símbolo é único e não pode ser comparado com outro valor de símbolo usando o operador ===. Por exemplo:
+
+<br/>
+
+```
+const mySymbol1 = Symbol('My Symbol');
+const mySymbol2 = Symbol('My Symbol');
+
+console.log(mySymbol1 === mySymbol2); // Output: false
+```
+
+<br/>
+
+Neste exemplo, dois símbolos são criados com a mesma descrição, mas ainda assim são valores diferentes e não podem ser comparados usando o operador ===.
