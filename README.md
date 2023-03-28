@@ -8,7 +8,7 @@ Os números representam valores numéricos, positivos ou negativos, inteiros ou 
 let x = 10;
 let y = -5.5;
 ```
-
+<br/>
 > **Strings**:
 
 Strings são cadeias de caracteres. Eles podem conter letras, números, símbolos e espaços em branco. Eles são definidos entre aspas simples ou duplas. Por exemplo:
