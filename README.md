@@ -9,6 +9,7 @@ let x = 10;
 let y = -5.5;
 ```
 <br/>
+
 > **Strings**:
 
 Strings são cadeias de caracteres. Eles podem conter letras, números, símbolos e espaços em branco. Eles são definidos entre aspas simples ou duplas. Por exemplo:
@@ -17,6 +18,8 @@ Strings são cadeias de caracteres. Eles podem conter letras, números, símbolo
 let nome = "Maria";
 let sobrenome = 'Silva';
 ```
+
+<br/>
 
 > **Booleanos**:
 
@@ -27,6 +30,8 @@ let temLicenca = true;
 let estaAutenticado = false;
 ```
 
+<br/>
+
 > **Null**:
 
 Null é um valor especial que representa a ausência de valor. Por exemplo:
@@ -34,6 +39,8 @@ Null é um valor especial que representa a ausência de valor. Por exemplo:
 ```
 let valor = null;
 ```
+
+<br/>
 
 > **Undefined**:
 
@@ -43,6 +50,8 @@ Undefined é um valor especial que é atribuído automaticamente às variáveis 
 let x;
 console.log(x); // imprime undefined
 ```
+
+<br/>
 
 > **Objetos**:
 
@@ -60,6 +69,8 @@ let pessoa = {
 };
 ```
 
+<br/>
+
 > **Arrays**:
 
 Os arrays são coleções de valores que podem ser acessados por um índice. Eles são definidos entre colchetes e podem conter valores de qualquer tipo. Por exemplo:
@@ -68,3 +79,5 @@ Os arrays são coleções de valores que podem ser acessados por um índice. Ele
 let numeros = [1, 2, 3, 4, 5];
 let frutas = ["maçã", "banana", "laranja"];
 ```
+
+<br/>
